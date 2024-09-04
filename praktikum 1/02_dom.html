@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            Belajar Javascript
+        </title>
+    </head>
+    <body>
+        <h2>akses elemen menggunakan getElementbytagname</h2>
+       
+        <p>Belajar Javascript</p>
+        <p> Belajar document object model</p>
+        <p id="demo"></p>
+        <script>
+            var x = document.getElementsByTagName("p");
+            document.getElementById("demo").innerHTML= "isi teks :"+ x[0].innerHTML + "<br />" + "isi tesks[1] :" + x[1].innerHTML;
+        </script>
+    </body>
+</html>
